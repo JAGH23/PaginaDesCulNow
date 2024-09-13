@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 1366px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+}
+
+header {
+    width: 1366px;
+    height: 200px;
+    color: rgb(255, 235, 183);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(195, 174, 214);
+    background-image: linear-gradient(to bottom right, rgb(195, 174, 214), rgb(255, 191, 134));
+    padding-top: 10px;
+    text-shadow: -1px 2px 0px rgb(238, 5, 109);
+}
+
+nav {
+    width: 1366px;
+    height: 50px;
+    background-color: rgb(238, 5, 109);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    transition: 1s;
+}
+
+nav a:hover {
+    background-color: rgb(153, 4, 71);
+    transform: scale(1.2);
+}
+
+section {
+    width: 1366px;
+    background-color: rgb(247, 247, 247);
+}
+
+section .bienvenida {
+    font-size: 90px;
+    text-align: center;
+}
+
+section .Descripcion {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+section h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.pregunta{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    padding: 19px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.activo, .pregunta:hover{
+    background-color: darkgray;
+}
+
+.respuesta{
+    padding: 0 10px;
+    background-color: whitesmoke;
+    max-height: 0;
+    overflow: hidden;
+    transition:max-heigt 0.2s ease-out;
+}
+
+footer {
+    width: 1366px;
+    height: 250px;
+    padding: 30px;
+    background-color: rgb(95, 95, 95);
+    align-items: center;
+    overflow: hidden;
+}
+
+footer a {
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    display: table-footer-group;
+}
+
+footer a:hover {
+    background-color: rgb(66, 66, 66);
+    transform: scale(1.2);
+}
